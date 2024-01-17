@@ -7,8 +7,27 @@
 </head>
 <body>
 	<?php
-		$ten = "TRAN VAN DIEP";
-		echo "TRAN VAN DIEP";
-	?>
+		$name = "TRAN VAN DIEP";
+		$age = 20;
+		$address = "Nam Dinh";
+		$email = "gokisoft@gmail.com";
+		$phone = "0123456789";
+
+		echo '<table>'
+			echo '<tr>
+				<th>Tên</th>
+				<th>Tuổi</th>
+				<th>Địa chỉ</th>
+				<th>Email</th>
+				<th>SDT</th>
+			</tr>'
+			<tr>
+				<td>$name</td>
+				<td>$age</td>
+				<td>$address</td>
+				<td>$email</td>
+				<td>$phone</td>
+			</tr>
+		</table>';
 </body>
 </html>
